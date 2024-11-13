@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Create a new instance of Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: '*', // Allow requests from any origin
+    origin: '*', // Allow requests from any origin si
   }
 });
 
