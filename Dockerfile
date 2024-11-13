@@ -5,4 +5,4 @@ WORKDIR /app
 RUN npm ci --only=production
 COPY . .
 
-CMD["node","server.js"]
+CMD ["node","server.js"]
